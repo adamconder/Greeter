@@ -10,7 +10,7 @@ class Person(name : String, age : Int, val bankAccounts: Seq[BankAccount] = Nil)
     if (name == "adam") {
       s"You don't get a hello!"
     } else {
-      s"Hello $name, you are $age $years old. \nYou have $totalBalance in your account."
+      s"Hello $name, you are $age $years old. \nYour account details are: $bankAccounts"
     }
   }
 
